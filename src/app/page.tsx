@@ -1,10 +1,9 @@
-import L_UserAction from "./components/L_UseAction";
+import L_UseDeferred from "./components/L_UseDeferred";
 
 export default function Home() {
   return (
     <div >
-      <L_UserAction itemTitle="Item 1" itemId={1} />
-      <L_UserAction itemTitle="Item 2" itemId={2} />
+      <L_UseDeferred />
     </div>
   );
 }
