@@ -1,9 +1,9 @@
-import L_UseDeferred from "./components/L_UseDeferred";
+import L_UseLayoutEffect from "./components/L_UseLayoutEffect";
 
 export default function Home() {
   return (
     <div >
-      <L_UseDeferred />
+      <L_UseLayoutEffect />
     </div>
   );
 }
