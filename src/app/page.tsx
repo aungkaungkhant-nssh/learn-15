@@ -1,9 +1,9 @@
-import L_UseLayoutEffect from "./components/L_UseLayoutEffect";
+import L_UseImperativeHandle from "./components/L_UseImperativeHandle";
 
 export default function Home() {
   return (
     <div >
-      <L_UseLayoutEffect />
+      <L_UseImperativeHandle />
     </div>
   );
 }
